@@ -3,6 +3,8 @@
     flex-direction: row;
     padding-top: 17px;
     padding-bottom: 17px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -32,9 +34,6 @@ a {
     margin: 0px 52px;
 }
 
-.header-logo {
-    padding-right: 760px;
-}
 
 .header-buttons {
 

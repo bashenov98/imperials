@@ -89,12 +89,13 @@ const About = () => {
 
     return (
         <div className="all">
-            <div>
+            <div className="hero-section">
                 <div>
                     <h3>IMPERIALS NFT</h3>
                     <h2>IMPERIALS NFT</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                 </div>
+
                 <div>
 
                 </div>
@@ -119,7 +120,7 @@ const About = () => {
                     (<div className="phases">
                         <div className="phase" onClick={() => setChoosenPhase(1)}>
                             <div className="phase-image">
-                                <img src="https://i.ibb.co/sCqfVHh/Group-157-2.png" alt="phase1"/>
+                                <img src='https://i.ibb.co/4jKSnJH/Group-3-2.png' alt="phase1"/>
                             </div>
                             <div>
                                 <h5>Phase 1</h5>
@@ -128,7 +129,7 @@ const About = () => {
                         </div>
                         <div className="phase" onClick={() => setChoosenPhase(2)}>
                             <div className="phase-image">
-                                <img src="https://i.ibb.co/k2rMQ7Q/Group-157.png" alt="phase2"/>
+                                <img src="https://i.ibb.co/YyYNBMz/Group-3-3.png" alt="phase2"/>
                             </div>
                             <div>
                                 <h5>Phase 2</h5>
@@ -137,7 +138,7 @@ const About = () => {
                         </div>
                         <div className="phase" onClick={() => setChoosenPhase(3)}>
                             <div className="phase-image">
-                                <img src="https://i.ibb.co/897RZZ3/Group-157-1.png" alt="phase3"/>
+                                <img src="https://i.ibb.co/SQ3DmHP/Group-3-4.png" alt="phase3"/>
                             </div>
                             <div>
                                 <h5>Phase 3</h5>
@@ -146,7 +147,7 @@ const About = () => {
                         </div>
                         <div className="phase" onClick={() => setChoosenPhase(4)}>
                             <div className="phase-image">
-                                <img src="https://i.ibb.co/bsK908R/Group-157-3.png" alt="phase4"/>
+                                <img src="https://i.ibb.co/bzLrhvL/Group-3-5.png" alt="phase4"/>
                             </div>
                             <div className="phase-info">
                                 <h5>Phase 4</h5>
@@ -170,12 +171,14 @@ const About = () => {
                                 {/*{phases[choosenPhase - 1].description.map((item) =><div className="swiper-item">*/}
                                 {/*    {item}*/}
                                 {/*</div>)}*/}
-                                {phases[choosenPhase - 1].headers.map((item, index) =><div className="swiper-item">
-                                    <p className="phase-step-header">{item}</p>
-                                    <p className="phase-step-text">{phases[choosenPhase - 1].description[index]}</p>
-                                </div>)}
+                                {phases[choosenPhase - 1].headers.map((item, index) =>
+                                    <div className="swiper-item">
+                                        <p className="phase-step-header">{item}</p>
+                                        <p className="phase-step-text">{phases[choosenPhase - 1].description[index]}</p>
+                                    </div>
+                                )}
                             </div>
-                            <div>
+                            <div className="phase-right_btm_img">
                                 <img src={phases[choosenPhase - 1].url} alt="phase-image"/>
                             </div>
                         </div>
@@ -198,10 +201,10 @@ const About = () => {
             </div><br/><br/><br/>
             <div>
                 <div className="faq-header">
-                    <h3>FAQ</h3>
+                    <h3 style={{textAlign: 'center'}}>FAQ</h3>
                     <h2>FAQ</h2>
                 </div>
-                <div>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
                     <FaqItem>2</FaqItem>
                 </div>
             </div>

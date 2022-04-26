@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header-logo">
-                <img src='https://i.ibb.co/VDxkQyz/Logo-1.png' alt="logo"/>
+                <img src='https://i.ibb.co/VDxkQyz/Logo-1.png' style={styles.imgLogo} alt="logo"/>
             </div>
             <div className="header-buttons">
                 <a href="/about">ABOUT</a>
@@ -18,3 +18,9 @@ const Header = () => {
 };
 
 export default Header;
+
+const styles = {
+    imgLogo: {
+        width: '120px'
+    }
+}
