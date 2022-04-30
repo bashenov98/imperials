@@ -5,7 +5,7 @@ import {ReactComponent as Discord} from "../../media/Discord.svg";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <div className="line">
 
             </div>

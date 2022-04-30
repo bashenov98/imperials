@@ -34,20 +34,29 @@ const FaqItem = (props) => {
     }
 
     return (
-        <div style={styles.grid}>
-            {data.questions.map((post,i)=>(
-                <div >
-                    <a style={{cursor: 'pointer', margin: 0}} onClick={() => toggle(i+1) }>
-                        <div style={styles.contentBox} key={i}>
-                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                                <p className="questions">{post.question}</p>
-                                <button style={styles.arrowBtn}>{data.questions[i].visible ? <img src="https://i.ibb.co/cYZsbf8/Frame-177.png"/>: <img src="https://i.ibb.co/McDQb75/Group-159.png"/>}</button>
-                            </div>
-                            {!data.questions[i].visible ?<p className="answers">{post.answer}</p>: null}
+        <div>
+            <div className="faq-header">
+                <h3 style={{textAlign: 'center'}}>FAQ</h3>
+                <h2>FAQ</h2><br/>
+            </div>
+            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+                <div style={styles.grid}>
+                    {data.questions.map((post,i)=>(
+                        <div >
+                            <a style={{cursor: 'pointer', margin: 0}} onClick={() => toggle(i+1) }>
+                                <div style={styles.contentBox} key={i}>
+                                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                                        <p className="questions">{post.question}</p>
+                                        <button style={styles.arrowBtn}>{data.questions[i].visible ? <img src="https://i.ibb.co/cYZsbf8/Frame-177.png"/>: <img src="https://i.ibb.co/McDQb75/Group-159.png"/>}</button>
+                                    </div>
+                                    {!data.questions[i].visible ?<p className="answers">{post.answer}</p>: null}
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    ))}
                 </div>
-            ))}
+            </div>
+            <br/><br/><br/>
         </div>
     );
 };

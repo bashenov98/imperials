@@ -17,6 +17,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 130px;
 }
 
 h2 {
@@ -73,23 +74,6 @@ img {
     max-height: 100%;
 }
 
-.phases {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.phase {
-    backdrop-filter: blur(40px);
-    background: rgba(0, 0, 0, 0.1);
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    backdrop-filter: blur(40px);
-    /* Note: backdrop-filter has minimal browser support */
-
-    border-radius: 8px;
-}
-
 h4 {
     font-family: 'Aurek-Besh';
     font-style: normal;
@@ -122,27 +106,6 @@ h5 {
     padding: 40px 12px;
 }
 
-.phase-image {
-    width: 198px;
-    margin-top: 36px;
-}
-
-.phase-info {
-    left: 12px;
-    top: 177px;
-}
-
-.choosen-phase {
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(40px);
-}
-
-.phase-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 p {
     left: 0px;
     top: 0px;
@@ -165,16 +128,6 @@ p {
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.faq-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.swiper-item {
-    margin-bottom: 12px;
 }
 
 .phase-step-header {
@@ -200,70 +153,6 @@ p {
 .phase-right_btm_img {
     display: flex;
     flex-direction: row-reverse;
-}
-
-.team-members {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.member-name {
-    position: static;
-    width: 280px;
-    height: 25px;
-    left: 0px;
-    top: 0px;
-
-    /* H3 */
-
-    font-family: 'ITC Serif Gothic';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 25px;
-    /* identical to box height */
-
-    letter-spacing: 0.02em;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 4px 0px;
-}
-
-.member-position {
-    position: static;
-    width: 207px;
-    height: 19px;
-    left: 0px;
-    top: 29px;
-
-    /* p1 */
-
-    font-family: 'Stellar';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    /* or 19px */
-
-    letter-spacing: 0.02em;
-
-    color: #97ABC9;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 4px 0px;
 }
 
 .main-header {
@@ -296,7 +185,6 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 120%;
     /* or 19px */
 
     letter-spacing: 0.02em;
@@ -317,38 +205,12 @@ p {
 }
 
 .planet-section {
-    min-height: 100vh;
-    background: url('https://i.ibb.co/4Kj01tk/Group-170.png') no-repeat center;
+    background: url('https://i.ibb.co/Tv4dLDR/1-block.png');
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     position: relative;
     align-items: center;
     justify-content: space-between;
 }
 
-.rules-items {
-    position: static;
-    width: 928px;
-    height: 171px;
-    left: 0px;
-    top: 0px;
-
-    /* p1 */
-
-    font-family: 'Stellar';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    /* or 19px */
-
-    letter-spacing: 0.02em;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}

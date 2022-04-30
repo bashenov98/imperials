@@ -1,21 +1,16 @@
-@import url(//db.onlinewebfonts.com/c/8b37ded096ad544bb0f5b33c22094682?family=ITC+Serif+Gothic);
-@import url('http://fonts.cdnfonts.com/css/stellar');
-
-.questions {
-    font-family: 'ITC Serif Gothic';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    /* identical to box height */
-
-    letter-spacing: 0.02em;
-
-    color: #FFFFFF;
-    margin: 0;
+.rules {
+    padding: 0 130px;
 }
 
-.answers {
+.rules-items {
+    position: static;
+    width: 928px;
+    height: 171px;
+    left: 0px;
+    top: 0px;
+
+    /* p1 */
+
     font-family: 'Stellar';
     font-style: normal;
     font-weight: 400;
@@ -31,15 +26,8 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
-    margin: 20px 0px;
-}
-
-.faq-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 h2 {
@@ -78,3 +66,4 @@ h3 {
     order: 0;
     flex-grow: 0;
 }
+

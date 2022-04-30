@@ -1,0 +1,95 @@
+.roadmap {
+    padding: 0 130px;
+}
+
+.phases {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.phase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 262px;
+    width: 280px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(40px);
+    border-radius: 8px;
+    padding: 40px 12px;
+}
+
+.phase {
+    backdrop-filter: blur(40px);
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 8px;
+}
+
+.phase-image {
+    width: 198px;
+    margin-top: 36px;
+}
+
+.phase-info {
+    left: 12px;
+    top: 177px;
+}
+
+.choosen-phase {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(40px);
+}
+
+.phase-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phase-right_btm_img {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    font-family: ITC Serif Gothic;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: static;
+    width: 515px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    /* aurek p1 */
+
+    font-family: 'Aurek-Besh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #161E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

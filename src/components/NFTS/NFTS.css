@@ -1,0 +1,50 @@
+.nfts {
+    padding: 0px 130px;
+}
+
+.swiper-item {
+    margin-bottom: 12px;
+}
+
+.nft-img {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+h2 {
+     font-family: ITC Serif Gothic;
+     font-size: 60px;
+     font-weight: 700;
+     line-height: 61px;
+     letter-spacing: 0.02em;
+     text-align: left;
+     color: #FFFFFF;
+ }
+
+h3 {
+    position: static;
+    width: 515px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    /* aurek p1 */
+
+    font-family: 'Aurek-Besh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #161E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
