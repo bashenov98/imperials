@@ -10,7 +10,7 @@ import FaqItem from "../FAQ/FAQItem";
 const About = () => {
     const [choosenPhase, setChoosenPhase] = useState(0);
     const items = [
-        {id: 1, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
+        {id: 1, url: "../../media/nfts/IMG_1696.PNG"},
         {id: 2, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
         {id: 3, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
         {id: 4, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
@@ -33,7 +33,8 @@ const About = () => {
                 'Recruiting a team of cool and fun people with a lot of experience behind them to create only positive vibes and cool products for our favorite holders.',
                 'Creating our website for more information about the project and about us.',
                 'Creating our pages on social networks such as Twitter, Discord.'
-            ]
+            ],
+            url: 'https://i.ibb.co/4jKSnJH/Group-3-2.png'
         },
         {id:2, title: 'Phase 2',
             headers: [
@@ -51,7 +52,8 @@ const About = () => {
                 'Presale for the first, hardest working, and most active members of the community.',
                 'Public mint for all comers.',
                 'Listing on the popular trading platform MagicEden for secondary trade of the collection.'
-            ]
+            ],
+            url: 'https://i.ibb.co/YyYNBMz/Group-3-3.png'
         },
         {id:3, title: 'Phase 3',
             headers: [
@@ -63,7 +65,8 @@ const About = () => {
                 'Creating your own token $??? To further, integrate them into the game and our ecosystem.',
                 'Creating an interesting and unique role-playing game with lots of surprises and chips. You can read full information about the game in the whitepaper.',
                 'Launching a staking system for passive income of NFT holders.'
-            ]
+            ],
+            url: 'https://i.ibb.co/SQ3DmHP/Group-3-4.png'
         },
         {id:4, title: 'Phase 4',
             headers: [
@@ -71,7 +74,8 @@ const About = () => {
             ],
             description: [
                 'Launching the next collection for all holders.'
-            ]
+            ],
+            url: 'https://i.ibb.co/19rphvB/Group-164.png'
         }];
 
     const team = [
@@ -215,7 +219,24 @@ const About = () => {
                     <FaqItem>2</FaqItem>
                 </div>
             </div><br/><br/><br/>
+            <div className="rules">
+                <h3>Rules</h3>
+                <h2>Rules</h2>
+                <br/>
+                <p className="rules-items">
+                    1. Follow <a href="https://discord.gg/rGXSMKcnv3">Discord</a>'s Terms of Service Guidelines. <br/>
+                    2. Keep discussion civil and don't be rude.<br/>
+                    3. No spam, advertising and self-promotion.<br/>
+                    4. No NSFW content.<br/>
+                    5. Keep discussion on topic and in the correct channels.<br/>
+                    6. No bigotry for any reason, whether it be race, ethnicity, national origin, sex, gender, sexual orientation, or religious affiliation.<br/>
+                    7. Impersonating any of the Team/Mods will result in momentary confusion but eventually an instant ban.<br/>
+                    8. For now, please keep all conversations in English in order to make sure the moderation team can accurately moderate the server.<br/>
+                    9. Please be nice and respectful to all members. If you feel like you or someone else is being attacked, let a Team Imperials mod know.<br/>
+                </p>
+            </div> <br/><br/><br/>
         </div>
+
     );
 };
 

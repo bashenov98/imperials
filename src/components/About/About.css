@@ -324,3 +324,31 @@ p {
     align-items: center;
     justify-content: space-between;
 }
+
+.rules-items {
+    position: static;
+    width: 928px;
+    height: 171px;
+    left: 0px;
+    top: 0px;
+
+    /* p1 */
+
+    font-family: 'Stellar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

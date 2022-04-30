@@ -1,9 +1,11 @@
 import React from 'react';
+import './Game.css';
 
 const Game = () => {
     return (
-        <div>
-            COMING SOON!
+        <div className="game">
+            <h3>GAME IS COMING!</h3>
+            <h2>GAME IS COMING!</h2>
         </div>
     );
 };

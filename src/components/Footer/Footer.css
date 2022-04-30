@@ -21,7 +21,6 @@
 }
 
 .footer-text {
-    position: static;
     width: 158px;
     height: 20px;
     left: 0px;
@@ -31,7 +30,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 122.5%;
     /* identical to box height, or 20px */
 
     letter-spacing: 0.02em;
@@ -44,4 +42,11 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-left: 974px;
 }

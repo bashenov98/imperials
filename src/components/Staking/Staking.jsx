@@ -1,9 +1,11 @@
 import React from 'react';
+import './Staking.css';
 
 const Staking = () => {
     return (
-        <div>
-            <h1>Staking is coming!</h1>
+        <div className="staking">
+            <h3>STAKING IS COMING!</h3>
+            <h2>STAKING IS COMING!</h2>
         </div>
     );
 };

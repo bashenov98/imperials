@@ -1,3 +1,6 @@
+
+@import url('http://fonts.cdnfonts.com/css/stellar');
+
 .header {
     display: flex;
     flex-direction: row;
@@ -7,7 +10,20 @@
     align-items: center;
 }
 
-a {
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.tabs {
     position: static;
     width: 50px;
     height: 24px;
@@ -18,7 +34,6 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 120%;
     /* identical to box height, or 24px */
 
     letter-spacing: 0.02em;
@@ -31,10 +46,9 @@ a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 52px;
+    textAlign: 'center';
 }
 
-
-.header-buttons {
-
+a {
+    text-decoration: none;
 }
