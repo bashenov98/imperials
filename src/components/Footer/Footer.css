@@ -1,0 +1,47 @@
+.line {
+    position: static;
+    width: 1180px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+
+    border: 2px solid #2D3C65;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-text {
+    position: static;
+    width: 158px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Stellar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122.5%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.02em;
+
+    color: #2D3C65;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
+import './Mint.css';
 
 const Mint = () => {
     return (
         <div>
-            <h1>Mint is coming!</h1>
+            <h3>MINT IS COMING!</h3>
+            <h2>MINT IS COMING!</h2>
         </div>
     );
 };
