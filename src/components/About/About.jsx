@@ -5,12 +5,13 @@ import {Swiper, SwiperSlide} from "swiper/react";
 // Import Swiper styles
 import 'swiper/css';
 import FaqItem from "../FAQ/FAQItem";
+import NFT1 from '../../media/nfts/IMG_1696.PNG'
 
 
 const About = () => {
     const [choosenPhase, setChoosenPhase] = useState(0);
     const items = [
-        {id: 1, url: "../../media/nfts/IMG_1696.PNG"},
+        {id: 1, url: NFT1},
         {id: 2, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
         {id: 3, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
         {id: 4, url: 'https://i.ibb.co/ZVCwHZs/IMG-1545.jpg'},
