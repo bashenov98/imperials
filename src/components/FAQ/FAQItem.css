@@ -78,3 +78,8 @@ h3 {
     order: 0;
     flex-grow: 0;
 }
+
+.img-x {
+    width: 20px;
+    height: 20px;
+}

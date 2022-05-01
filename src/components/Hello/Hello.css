@@ -1,0 +1,123 @@
+.hello {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 130px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroes-cipher {
+    margin-left: 200px;
+    width: 600px;
+    height: 274px;
+    left: 959px;
+    top: 256px;
+
+    background: rgba(0, 0, 0, 0.48);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.header-description {
+    width: 521px;
+    height: 76px;
+    left: 0px;
+    top: 109px;
+
+    /* p1 */
+
+    font-family: 'Stellar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* or 19px */
+
+    letter-spacing: 0.02em;
+
+    color: #97ABC9;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.cipher-text {
+    padding: 20px;
+}
+
+p {
+    left: 0px;
+    top: 0px;
+
+    /* p1 */
+
+    font-family: 'Stellar';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* or 19px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+h2 {
+    font-family: ITC Serif Gothic;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: static;
+    width: 515px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    /* aurek p1 */
+
+    font-family: 'Aurek-Besh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #161E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

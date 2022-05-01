@@ -14,8 +14,8 @@ const Roadmap = () => {
                 '1.4) Social Networks'
             ],
             description: [
-                'Drawing 2000 pcs of unique drawings by generating more than 100 attributes and backgrounds.',
-                'Recruiting a team of cool and fun people with a lot of experience behind them to create only positive vibes and cool products for our favorite holders.',
+                'Drawing 2,222 pcs of unique drawings by generating more than 100 attributes and backgrounds.',
+                'Recruiting a team of enthusiastic people with a lot of experience behind them to create only positive vibes and cool products for our favorite holders.',
                 'Creating our website for more information about the project and about us.',
                 'Creating our pages on social networks such as Twitter, Discord.'
             ],
@@ -33,10 +33,10 @@ const Roadmap = () => {
             description: [
                 'Promotion of social networks and PR of the project for wide publicity in the society. We want everyone to know about us on blockchain Solana.',
                 'Collaboration with famous projects and Influencers to distribute WL roles and special roles.',
-                'Creating a close-knit and friendly community.',
+                'Establish exclusive DAO community.',
                 'Presale for the first, hardest working, and most active members of the community.',
                 'Public mint for all comers.',
-                'Listing on the popular trading platform MagicEden for secondary trade of the collection.'
+                'Listing on the popular NFT marketplace MagicEden for secondary trade of the collection.'
             ],
             url: 'https://i.ibb.co/YyYNBMz/Group-3-3.png'
         },
@@ -44,21 +44,23 @@ const Roadmap = () => {
             headers: [
                 '3.1) Tokenomics',
                 '3.2) Staking',
-                '3.3) Casino'
+                '3.3) Casino',
+                '3.4) Auctions'
             ],
             description: [
-                'Creating your own token $??? To further, integrate them into the game and our ecosystem.',
+                'Creating our own token $IMPR to further, integrate them into the game and our ecosystem.',
                 'Creating an interesting and unique role-playing game with lots of surprises and chips. You can read full information about the game in the whitepaper.',
-                'Launching a staking system for passive income of NFT holders.'
+                'Launching a staking system for passive income of NFT holders.',
+                'Auctions. Conducting auctions among holders of $IMPR Token.'
             ],
             url: 'https://i.ibb.co/SQ3DmHP/Group-3-4.png'
         },
         {id:4, title: 'Phase 4',
             headers: [
-                '4) New Collections'
+                '4) Game 2.0'
             ],
             description: [
-                'Launching the next collection for all holders.'
+                'Launching the next version of game.'
             ],
             url: 'https://i.ibb.co/19rphvB/Group-164.png'
         }];

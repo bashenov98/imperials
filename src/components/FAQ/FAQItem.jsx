@@ -47,7 +47,7 @@ const FaqItem = (props) => {
                                 <div style={styles.contentBox} key={i}>
                                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
                                         <p className="questions">{post.question}</p>
-                                        <button style={styles.arrowBtn}>{data.questions[i].visible ? <img src="https://i.ibb.co/cYZsbf8/Frame-177.png"/>: <img src="https://i.ibb.co/McDQb75/Group-159.png"/>}</button>
+                                        <button style={styles.arrowBtn}>{data.questions[i].visible ? <img className="img-x" src="https://i.ibb.co/cYZsbf8/Frame-177.png"/>: <img className="img-x" src="https://i.ibb.co/McDQb75/Group-159.png"/>}</button>
                                     </div>
                                     {!data.questions[i].visible ?<p className="answers">{post.answer}</p>: null}
                                 </div>

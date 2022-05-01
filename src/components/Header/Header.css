@@ -4,11 +4,9 @@
 .header {
     display: flex;
     flex-direction: row;
-    padding-top: 17px;
-    padding-bottom: 17px;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 130px;
+    padding: 17px 130px;
 }
 
 .header-right {
@@ -53,7 +51,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    textAlign: 'center';
+    text-align: center;
 }
 
 a {

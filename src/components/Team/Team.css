@@ -103,3 +103,9 @@ h3 {
     order: 0;
     flex-grow: 0;
 }
+
+.photo {
+    object-fit: cover;
+    width: 280px;
+    height: 327px;
+}
