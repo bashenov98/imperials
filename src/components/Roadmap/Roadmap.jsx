@@ -62,7 +62,7 @@ const Roadmap = () => {
             description: [
                 'Launching the next version of game.'
             ],
-            url: 'https://i.ibb.co/19rphvB/Group-164.png'
+            url: 'https://i.ibb.co/bzLrhvL/Group-3-5.png'
         }];
 
     return (
