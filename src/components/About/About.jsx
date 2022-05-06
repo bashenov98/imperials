@@ -22,13 +22,18 @@ const About = () => {
     const [isLoading, setLoading] = useState(false);
 
     useEffect(() => {
-        if(typeof(localStorage.getItem("username"))=='undefined') {
-            setLoading(true);
-            setTimeout (() => {
-                setLoading(false);
-                localStorage.setItem("username", 1);
-            }, 600000);
-        };
+        // if(typeof(localStorage.getItem("username"))=='undefined') {
+        //     setLoading(true);
+        //     setTimeout (() => {
+        //         setLoading(false);
+        //         localStorage.setItem("username", 1);
+        //     }, 600000);
+        // };
+        setLoading(true);
+        setTimeout (() => {
+            setLoading(false);
+            localStorage.setItem("username", 1);
+        }, 600000);
     }, []);
 
     const handleLanguage = (langValue) => {
