@@ -2,3 +2,29 @@
     background-color: black;
     overflow-x: hidden;
 }
+
+@font-face {
+    font-family: 'Aurek-Besh';
+    src: url('../public/fonts/Aurek-Besh.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../public/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    src: url('../public/fonts/SairaExtraCondensed-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'ITC Serif Gothic';
+    src: url('../public/fonts/ITC Serif Gothic Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../public/fonts/Stellar-Regular.otf');
+}
+
