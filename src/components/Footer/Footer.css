@@ -20,7 +20,7 @@
     margin: 16px 0px;
 }
 
-.content {
+.footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

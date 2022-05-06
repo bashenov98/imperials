@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="line">
 
             </div>
-            <div className="content">
+            <div className="footer-content">
                 <p className="footer-text">ⓒ Imperials NFT, 2022</p>
                 <div className="header-socials">
                     <a href="https://twitter.com/ImperialsNFT"><Twitter/></a>

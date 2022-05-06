@@ -4,8 +4,8 @@ import './Rules.css';
 const Rules = () => {
     return (
         <div className="rules">
-            <h3>Rules</h3>
-            <h2>Rules</h2>
+            <h3>Discord Rules</h3>
+            <h2>Discord Rules</h2>
             <br/>
             <p className="rules-items">
                 1. Follow <a href="https://discord.gg/rGXSMKcnv3">Discord</a>'s Terms of Service Guidelines. <br/>

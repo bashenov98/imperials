@@ -1,7 +1,11 @@
 import React from 'react';
 import {Swiper, SwiperSlide} from "swiper/react";
+import {Autoplay} from "swiper";
+
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
+
 import './NFTS.css';
 
 import NFT1 from '../../media/nfts/IMG_1696.PNG';
@@ -28,12 +32,17 @@ const Nfts = () => {
         {id: 9, url: NFT9}
     ];
 
+
+
     return (
         <div className="nfts">
             <h3>Our NFTs</h3>
             <h2>Our NFTs</h2><br/>
             <Swiper spaceBetween={50}
-                    slidesPerView={3}>
+                    slidesPerView={3}
+                    modules={[Autoplay]}
+                    autoplay={{delay: 1000}}
+                    speed={500}>
                 {items.map((item, id) =><div className="swiper-item" key={item.id}>
                     <SwiperSlide>
                         <img className="nft-img" src={item.url} alt="IMG-1545" />

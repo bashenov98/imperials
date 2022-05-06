@@ -1,3 +1,8 @@
+@import url(//db.onlinewebfonts.com/c/47be2b2cac26f996dfa1c885d7c9d53d?family=Aurek-Besh);
+@import url(//db.onlinewebfonts.com/c/8b37ded096ad544bb0f5b33c22094682?family=ITC+Serif+Gothic);
+@import url('http://fonts.cdnfonts.com/css/stellar');
+
+
 .hello {
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -27,6 +32,7 @@
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 8px 0px 0px 8px;
+    backdrop-filter: blur(40px);
 }
 
 .header-description {
