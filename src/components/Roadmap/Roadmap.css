@@ -11,8 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 262px;
-    width: 280px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.1);
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(40px);
@@ -69,8 +68,7 @@ h2 {
 
 h3 {
     position: static;
-    width: 515px;
-    height: 20px;
+    width: 100%;
     left: 0px;
     top: 0px;
 

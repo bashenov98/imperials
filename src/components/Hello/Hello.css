@@ -23,8 +23,7 @@
 
 .heroes-cipher {
     margin-left: 200px;
-    width: 600px;
-    height: 274px;
+    width: 100%;
     left: 959px;
     top: 256px;
 
@@ -36,8 +35,7 @@
 }
 
 .header-description {
-    width: 521px;
-    height: 76px;
+    width: 100%;
     left: 0px;
     top: 109px;
 
@@ -103,8 +101,7 @@ h2 {
 
 h3 {
     position: static;
-    width: 515px;
-    height: 20px;
+    width: 100%;
     left: 0px;
     top: 0px;
 

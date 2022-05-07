@@ -25,7 +25,7 @@ const Team = () => {
             <h3>Our team</h3>
             <h2>Our team</h2><br/>
             <div className="team-members">
-                <Swiper spaceBetween={20} slidesPerView={4}>
+                <Swiper spaceBetween={20} slidesPerView={'auto'}>
                     {team.map((item) =>
                         <div key={item.id}>
                             <SwiperSlide>

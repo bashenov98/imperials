@@ -30,8 +30,7 @@
 
 .tabs {
     position: static;
-    width: 50px;
-    height: 24px;
+    width: 100%;
     left: 0px;
     top: 0px;
 
