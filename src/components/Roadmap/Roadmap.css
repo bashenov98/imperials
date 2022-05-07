@@ -1,5 +1,5 @@
 .roadmap {
-    padding: 0 130px;
+    padding: 0px 130px;
 }
 
 .phases {
@@ -11,8 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 262px;
-    width: 280px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.1);
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(40px);
@@ -32,8 +31,7 @@
 }
 
 .phase-image {
-    width: 198px;
-    margin-top: 36px;
+    width: 100%;
 }
 
 .phase-info {
@@ -69,8 +67,7 @@ h2 {
 
 h3 {
     position: static;
-    width: 515px;
-    height: 20px;
+    width: 100%;
     left: 0px;
     top: 0px;
 
@@ -92,4 +89,25 @@ h3 {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .roadmap {
+        padding: 0 12px;
+    }
+    
+    .phases {
+        flex-direction: column;
+    }
+
+    .phase {
+        padding: 22px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .phase-image {
+        margin: 0;
+    }
 }

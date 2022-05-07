@@ -54,8 +54,7 @@ h2 {
 
 h3 {
     position: static;
-    width: 515px;
-    height: 20px;
+    width: 100%;
     left: 0px;
     top: 0px;
 
@@ -82,4 +81,23 @@ h3 {
 .img-x {
     width: 20px;
     height: 20px;
+}
+
+.grid-table {
+    width: 52.5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-table {
+        width: 100%;
+    }
+
+    .faq-section {
+        padding: 0px 12px;
+    }
 }

@@ -169,3 +169,24 @@ audio {
     flex-direction: row;
     gap: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+    .skip-button img {
+        height: 100px;
+        margin-left: 150px;
+    }
+
+    .volume img {
+        height: 100px;
+    }
+
+    .intro-buttons {
+        gap: 150px;
+        padding-bottom: 50px;
+    }
+
+    .intro p {
+        font-size: 3rem;
+    }
+}
+

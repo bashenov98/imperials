@@ -30,8 +30,7 @@
 
 .tabs {
     position: static;
-    width: 50px;
-    height: 24px;
+    width: 100%;
     left: 0px;
     top: 0px;
 
@@ -62,5 +61,9 @@ a {
 @media screen and (max-width: 1024px) {
     .header-buttons {
         display: none;
+    }
+
+    .header { 
+        padding: 10px 12px;
     }
 }

@@ -33,8 +33,7 @@ h2 {
 
 h3 {
     position: static;
-    width: 515px;
-    height: 20px;
+    width: 100%;
     left: 0px;
     top: 0px;
 
@@ -56,18 +55,6 @@ h3 {
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.carousel-item {position: static;
-    width: 380px;
-    height: 380px;
-    left: 0px;
-    top: 0px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 20px;
 }
 
 img {
@@ -92,19 +79,6 @@ h5 {
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-}
-
-.phase {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 262px;
-    width: 280px;
-    background: rgba(0, 0, 0, 0.1);
-    border: 2px solid #FFFFFF;
-    backdrop-filter: blur(40px);
-    border-radius: 8px;
-    padding: 40px 12px;
 }
 
 p {
@@ -159,8 +133,7 @@ p {
 
 .planet {
     position: absolute;
-    width: 469px;
-    height: 469px;
+    width: 100%;
     left: -250.12px;
     top: 1300.93px;
     background-image: url("../../../public/backgrounds/planet.png");
@@ -180,8 +153,7 @@ p {
 
 .spot3 {
     position: absolute;
-    width: 824px;
-    height: 824px;
+    width: 100%;
     left: -56px;
     top: 2000px;
 
@@ -195,6 +167,7 @@ p {
     .hero-section {
         min-height: max-content;
         justify-content: center;
+        padding: 0 12px;
     
     }
     .heroes-cipher {

@@ -34,13 +34,13 @@ const FaqItem = (props) => {
     }
 
     return (
-        <div>
+        <div className='faq-section'>
             <div className="faq-header">
                 <h3 style={{textAlign: 'center'}}>FAQ</h3>
                 <h2>FAQ</h2><br/>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
-                <div style={styles.grid}>
+                <div className="grid-table">
                     {data.questions.map((post,i)=>(
                         <div >
                             <a style={{cursor: 'pointer', margin: 0}} onClick={() => toggle(i+1) }>
@@ -64,14 +64,6 @@ const FaqItem = (props) => {
 export default FaqItem;
 
 const styles = {
-    grid: {
-        width: '52.5%',
-        mx: 'auto',
-        display: 'flex',
-        flexDirection: 'column',
-        border: "2px solid #FFFFFF",
-        borderRadius: "8px"
-    },
 
     contentBox: {
         width: '100%', 
