@@ -5,11 +5,11 @@ import {ReactComponent as Discord} from "../../media/Discord.svg";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <div className="line">
 
             </div>
-            <div className="content">
+            <div className="footer-content">
                 <p className="footer-text">ⓒ Imperials NFT, 2022</p>
                 <div className="header-socials">
                     <a href="https://twitter.com/ImperialsNFT"><Twitter/></a>

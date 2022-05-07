@@ -1,0 +1,111 @@
+
+.team {
+    padding: 0 130px;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.member-name {
+    position: static;
+    width: 280px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+
+    /* H3 */
+
+    font-family: 'ITC Serif Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.member-position {
+    position: static;
+    width: 207px;
+    height: 19px;
+    left: 0px;
+    top: 29px;
+
+    /* p1 */
+
+    font-family: 'Stellar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.02em;
+
+    color: #97ABC9;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+h2 {
+    font-family: ITC Serif Gothic;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: static;
+    width: 515px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    /* aurek p1 */
+
+    font-family: 'Aurek-Besh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #161E34;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.photo {
+    object-fit: cover;
+    width: 280px;
+    height: 327px;
+}

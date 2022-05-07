@@ -1,13 +1,12 @@
 
-@import url('http://fonts.cdnfonts.com/css/stellar');
+/*@import url('http://fonts.cdnfonts.com/css/stellar');*/
 
 .header {
     display: flex;
     flex-direction: row;
-    padding-top: 17px;
-    padding-bottom: 17px;
     justify-content: space-between;
     align-items: center;
+    padding: 17px 130px;
 }
 
 .header-right {
@@ -26,6 +25,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 16px;
 }
 
 .tabs {
@@ -51,7 +51,8 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    text-align: 'center';
+
+    text-align: center;
 }
 
 a {

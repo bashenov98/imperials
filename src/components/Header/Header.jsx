@@ -4,6 +4,8 @@ import {ReactComponent as Twitter} from "../../media/Twitter.svg";
 import {ReactComponent as Logo} from "../../media/Logo.svg";
 import {ReactComponent as Discord} from "../../media/Discord.svg";
 
+import {Link} from "react-router-dom";
+
 
 const Header = () => {
     return (
@@ -13,14 +15,14 @@ const Header = () => {
             </div>
             <div className="header-right">
                 <div className="header-buttons">
-                    <a href="/"><p className="tabs">About</p></a>
-                    <a href="/mint"><p className="tabs">Mint</p></a>
-                    <a href="/game"><p className="tabs">Game</p></a>
-                    <a href="/staking"><p className="tabs">Staking</p></a>
+                    <Link to="/"><p className="tabs">About</p></Link>
+                    <Link to="/mint"><p className="tabs">Mint</p></Link>
+                    <Link to="/game"><p className="tabs">Game</p></Link>
+                    <Link to="/staking"><p className="tabs">Staking</p></Link>
                 </div>
                 <div className="socials">
-                    <a href="https://twitter.com/ImperialsNFT"><Twitter/></a>
-                    <a href="https://discord.gg/rGXSMKcnv3"><Discord/></a>
+                    <Link to="https://twitter.com/ImperialsNFT"><Twitter/></Link>
+                    <Link to="https://discord.gg/rGXSMKcnv3"><Discord/></Link>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/47be2b2cac26f996dfa1c885d7c9d53d?family=Aurek-Besh);
-@import url(//db.onlinewebfonts.com/c/8b37ded096ad544bb0f5b33c22094682?family=ITC+Serif+Gothic);
-@import url('http://fonts.cdnfonts.com/css/stellar');
+/*@import url(//db.onlinewebfonts.com/c/47be2b2cac26f996dfa1c885d7c9d53d?family=Aurek-Besh);*/
+/*@import url(//db.onlinewebfonts.com/c/8b37ded096ad544bb0f5b33c22094682?family=ITC+Serif+Gothic);*/
+/*@import url('http://fonts.cdnfonts.com/css/stellar');*/
 
 .game {
-    padding: 50px 0px;
+    padding: 50px 130px;
 }
 
 h2 {
