@@ -286,9 +286,7 @@ p {
 
 .header-description {
     width: 521px;
-    height: 76px;
-    left: 0px;
-    top: 109px;
+    
 
     /* p1 */
 
@@ -317,6 +315,7 @@ p {
 }
 
 .planet-section {
+    
     min-height: 100vh;
     background: url('https://i.ibb.co/4Kj01tk/Group-170.png') no-repeat center;
     background-size: cover;
@@ -351,4 +350,19 @@ p {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-section {
+        min-height: max-content;
+        justify-content: center;
+    
+    }
+    .heroes-cipher {
+        display: none;
+    }
+
+    .header-description {
+        width: 100%;
+    }
 }

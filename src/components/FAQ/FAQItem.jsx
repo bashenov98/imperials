@@ -39,7 +39,7 @@ const FaqItem = (props) => {
                 <div >
                     <a style={{cursor: 'pointer', margin: 0}} onClick={() => toggle(i+1) }>
                         <div style={styles.contentBox} key={i}>
-                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
                                 <p className="questions">{post.question}</p>
                                 <button style={styles.arrowBtn}>{data.questions[i].visible ? <img src="https://i.ibb.co/cYZsbf8/Frame-177.png"/>: <img src="https://i.ibb.co/McDQb75/Group-159.png"/>}</button>
                             </div>
@@ -72,7 +72,7 @@ const styles = {
         padding: '14px 10px',
         margin: 0,
         borderBottom: '2px solid #FFFFFF',
-        background: 'transparent'
+        background: 'transparent',
     },
 
     question: {
@@ -82,6 +82,7 @@ const styles = {
         lineHeight: "20px",
         letterSpacing: "0.02em",
         color: "#FFFFFF",
+       
     },
 
     answer: {

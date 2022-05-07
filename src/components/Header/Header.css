@@ -51,9 +51,15 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    textAlign: 'center';
+    text-align: 'center';
 }
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-buttons {
+        display: none;
+    }
 }
