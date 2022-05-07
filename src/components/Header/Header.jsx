@@ -3,6 +3,7 @@ import './Header.css';
 import {ReactComponent as Twitter} from "../../media/Twitter.svg";
 import {ReactComponent as Logo} from "../../media/Logo.svg";
 import {ReactComponent as Discord} from "../../media/Discord.svg";
+import Drawer from './Drawer';
 
 import {Link} from "react-router-dom";
 
@@ -24,6 +25,10 @@ const Header = () => {
                     <Link to="https://twitter.com/ImperialsNFT"><Twitter/></Link>
                     <Link to="https://discord.gg/rGXSMKcnv3"><Discord/></Link>
                 </div>
+
+                
+                    <Drawer/>
+                
             </div>
         </div>
     );
