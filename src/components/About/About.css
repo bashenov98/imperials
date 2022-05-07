@@ -169,8 +169,7 @@ p {
 
 .spot1 {
     position: absolute;
-    width: 1000px;
-    height: 1000px;
+    width: 100%;
     left: 500.57px;
     top: 257.38px;
     background-image: url("../../media/backgrounds/spot1.png");
