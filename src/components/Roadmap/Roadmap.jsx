@@ -116,7 +116,7 @@ const Roadmap = () => {
                             <h5>{phases[choosenPhase - 1].title}</h5>
                             <h4>{phases[choosenPhase - 1].title}</h4>
                         </div>
-                        <div onClick={() => setChoosenPhase(0)}>
+                        <div onClick={() => setChoosenPhase(0)} style={{cursor: 'pointer'}}>
                             <img src="https://i.ibb.co/19rphvB/Group-164.png" alt="close-phase"/>
                         </div>
                     </div>
