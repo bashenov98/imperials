@@ -11,7 +11,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
     background: rgba(0, 0, 0, 0.1);
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(40px);
@@ -30,9 +29,7 @@
     border-radius: 8px;
 }
 
-.phase-image {
-    width: 100%;
-}
+
 
 .phase-info {
     left: 12px;
@@ -67,7 +64,6 @@ h2 {
 
 h3 {
     position: static;
-    width: 100%;
     left: 0px;
     top: 0px;
 

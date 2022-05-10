@@ -67,8 +67,8 @@ const Roadmap = () => {
 
     return (
         <div className="roadmap">
-            <h3>Roudmap</h3>
-            <h2>Roudmap</h2><br/>
+            <h3>Roadmap</h3>
+            <h2>Roadmap</h2><br/>
             {choosenPhase === 0
                 ?
                 (<div className="phases">
