@@ -11,6 +11,7 @@
     margin: 0;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding: 20px;
 }
 
 .answers {
@@ -22,6 +23,7 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin: 20px 0px;
+    padding: 20px;
 }
 
 .faq-header {
@@ -52,8 +54,8 @@ h3 {
 }
 
 .img-x {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .grid-table {
@@ -83,5 +85,14 @@ h3 {
 
     .faq-section {
         padding: 0px 12px;
+    }
+
+    .questions {
+        font-size: 29px;
+    }
+
+    .answers {
+        font-size: 12px;
+        margin: 0;
     }
 }

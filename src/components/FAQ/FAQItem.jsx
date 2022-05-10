@@ -65,25 +65,7 @@ export default FaqItem;
 
 const styles = {
     
-    question: {
-        fontStyle: "normal",
-        fontWeight: 700,
-        fontSize: "20px",
-        lineHeight: "20px",
-        letterSpacing: "0.02em",
-        color: "#FFFFFF",
-       
-    },
 
-    answer: {
-        paddingTop: '16px',
-        fontStyle: "normal",
-        fontWeight: 400,
-        fontSize: "16px",
-        lineHeight: "130%",
-        letterSpacing: "0.02em",
-        color: "#FFFFFF",
-    },
 
     arrowBtn: {
         width: '30px',
@@ -96,6 +78,7 @@ const styles = {
         border: 'none', 
         outline: 'none', 
         cursor: 'pointer',
+        marginRight: '20px'
     }
 
 

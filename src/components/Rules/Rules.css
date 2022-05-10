@@ -46,3 +46,18 @@ h3 {
     color: #161E34;
 }
 
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .rules {
+        padding: 0px 12px;
+    };
+
+    p { 
+        margin: 0;
+    }
+
+}
+
