@@ -13,17 +13,23 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 130px;
 }
 
 .main-header {
     display: flex;
     flex-direction: row;
+    padding: 0px 130px;
+    width: 40%;
 }
 
 .heroes-cipher {
     margin-left: 200px;
-    width: 100%;
+
+    position: absolute;
+    width: 481px;
+    height: max-content;
+    right: -10px;
+    top: 25%;
 
     background: rgba(0, 0, 0, 0.48);
     border: 1px solid #FFFFFF;
@@ -47,12 +53,14 @@
 
     letter-spacing: 0.02em;
 
+
+    line-height: 19px;
     color: #97ABC9;
     margin: 20px 0px;
 }
 
 .cipher-text {
-    padding: 20px;
+    padding: 15px;
 }
 
 p {
@@ -97,8 +105,17 @@ h3 {
 @media screen and (max-width: 1024px) {
     .hello {
         min-height: max-content;
-        padding: 0 12px;
         justify-content: center;
         margin-top: 26px;
     }
+
+    .heroes-cipher {
+        display: none;
+    }
+
+    .main-header {
+        width: 100%;
+        padding: 0px 12px;
+    }
+
 }
