@@ -19,24 +19,8 @@
     padding: 40px 12px;
 }
 
-.phase {
-    backdrop-filter: blur(40px);
-    background: rgba(0, 0, 0, 0.1);
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    backdrop-filter: blur(40px);
-    /* Note: backdrop-filter has minimal browser support */
-
-    border-radius: 8px;
-}
-
 .phase-image {
     width: 100%;
-}
-
-.phase-info {
-    left: 12px;
-    top: 177px;
 }
 
 .choosen-phase {
@@ -68,8 +52,6 @@ h2 {
 h3 {
     position: static;
     width: 100%;
-    left: 0px;
-    top: 0px;
 
     /* aurek p1 */
 
@@ -82,13 +64,28 @@ h3 {
 
 
     color: #161E34;
+}
 
+h4 {
+    font-family: ITC Serif Gothic;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+}
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+h5 {
+    font-family: Aurek-Besh;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344369;
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {

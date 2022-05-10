@@ -29,9 +29,7 @@
 }
 
 .tabs {
-    position: static;
     width: 100%;
-
     font-family: 'Stellar';
     font-style: normal;
     font-weight: 400;
@@ -41,13 +39,6 @@
     letter-spacing: 0.02em;
 
     color: #97ABC9;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 
     text-align: center;
 }

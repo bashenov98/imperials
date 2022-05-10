@@ -10,9 +10,7 @@
     /* identical to box height */
     margin: 0;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
-    margin: 0;
 }
 
 .answers {
@@ -21,18 +19,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    /* or 19px */
-
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     margin: 20px 0px;
 }
 
@@ -55,27 +43,12 @@ h2 {
 h3 {
     position: static;
     width: 100%;
-    left: 0px;
-    top: 0px;
-
-    /* aurek p1 */
-
     font-family: 'Aurek-Besh';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
-
-
     color: #161E34;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .img-x {
@@ -90,6 +63,17 @@ h3 {
     flex-direction: column;
     border: 2px solid #FFFFFF;
     border-radius: 8px;
+}
+
+.content-box {
+    width: 100%; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0px;
+    margin: 0;
+    border-bottom: 2px solid #FFFFFF;
+    background: transparent;
 }
 
 @media screen and (max-width: 1024px) {

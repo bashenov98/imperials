@@ -17,10 +17,7 @@ h2 {
 }
 
 h3 {
-    position: static;
     width: 100%;
-    left: 0px;
-    top: 0px;
 
     /* aurek p1 */
 
@@ -33,11 +30,4 @@ h3 {
 
 
     color: #161E34;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }

@@ -44,7 +44,7 @@ const FaqItem = (props) => {
                     {data.questions.map((post,i)=>(
                         <div >
                             <a style={{cursor: 'pointer', margin: 0}} onClick={() => toggle(i+1) }>
-                                <div style={styles.contentBox} key={i}>
+                                <div className="content-box" key={i}>
                                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
                                         <p className="questions">{post.question}</p>
                                         <button style={styles.arrowBtn}>{data.questions[i].visible ? <img className="img-x" src="https://i.ibb.co/cYZsbf8/Frame-177.png"/>: <img className="img-x" src="https://i.ibb.co/McDQb75/Group-159.png"/>}</button>
@@ -64,18 +64,7 @@ const FaqItem = (props) => {
 export default FaqItem;
 
 const styles = {
-
-    contentBox: {
-        width: '100%', 
-        height: 'auto',
-        display: 'flex', 
-        flexDirection: 'column', 
-        padding: '14px 10px',
-        margin: 0,
-        borderBottom: '2px solid #FFFFFF',
-        background: 'transparent',
-    },
-
+    
     question: {
         fontStyle: "normal",
         fontWeight: 700,
@@ -100,6 +89,10 @@ const styles = {
         width: '30px',
         height: '30px',
         background: 'transparent', 
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
         border: 'none', 
         outline: 'none', 
         cursor: 'pointer',

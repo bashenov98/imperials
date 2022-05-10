@@ -10,10 +10,7 @@
 }
 
 .member-name {
-    position: static;
     width: 100%;
-    left: 0px;
-    top: 0px;
 
     /* H3 */
 
@@ -27,21 +24,11 @@
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 4px 0px;
 }
 
 .member-position {
-    position: static;
     width: 100%;
-    left: 0px;
-    top: 29px;
 
     /* p1 */
 
@@ -55,13 +42,6 @@
     letter-spacing: 0.02em;
 
     color: #97ABC9;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     margin: 4px 0px;
 }
 
@@ -76,10 +56,7 @@ h2 {
 }
 
 h3 {
-    position: static;
     width: 100%;
-    left: 0px;
-    top: 0px;
 
     /* aurek p1 */
 
@@ -92,13 +69,6 @@ h3 {
 
 
     color: #161E34;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .photo {
