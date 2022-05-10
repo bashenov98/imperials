@@ -73,36 +73,41 @@ const Roadmap = () => {
                 ?
                 (<div className="phases">
                     <div className="phase" onClick={() => setChoosenPhase(1)}>
-                        <div className="phase-image">
-                            <img src='https://i.ibb.co/4jKSnJH/Group-3-2.png' alt="phase1"/>
+                        <div className='image-box'>
+                            <img className="phase-image" src='https://i.ibb.co/4jKSnJH/Group-3-2.png' alt="phase1"/>
                         </div>
-                        <div>
+                        
+                        
+                        <div className='phase-info'>
                             <h5>Phase 1</h5>
                             <h4>Phase 1</h4>
                         </div>
                     </div>
                     <div className="phase" onClick={() => setChoosenPhase(2)}>
-                        <div className="phase-image">
-                            <img src="https://i.ibb.co/YyYNBMz/Group-3-3.png" alt="phase2"/>
+                        <div className='image-box'>
+                            <img className="phase-image" src="https://i.ibb.co/YyYNBMz/Group-3-3.png" alt="phase2"/>
                         </div>
-                        <div>
+
+                        <div className='phase-info'>
                             <h5>Phase 2</h5>
                             <h4>Phase 2</h4>
                         </div>
                     </div>
                     <div className="phase" onClick={() => setChoosenPhase(3)}>
-                        <div className="phase-image">
-                            <img src="https://i.ibb.co/SQ3DmHP/Group-3-4.png" alt="phase3"/>
+                        <div className='image-box'>
+                            <img  className="phase-image" src="https://i.ibb.co/SQ3DmHP/Group-3-4.png" alt="phase3"/>
                         </div>
-                        <div>
+
+                        <div className='phase-info'>
                             <h5>Phase 3</h5>
                             <h4>Phase 3</h4>
                         </div>
                     </div>
                     <div className="phase" onClick={() => setChoosenPhase(4)}>
-                        <div className="phase-image">
-                            <img src="https://i.ibb.co/bzLrhvL/Group-3-5.png" alt="phase4"/>
+                        <div className='image-box'>
+                            <img className="phase-image" src="https://i.ibb.co/bzLrhvL/Group-3-5.png" alt="phase4"/>
                         </div>
+
                         <div className="phase-info">
                             <h5>Phase 4</h5>
                             <h4>Phase 4</h4>

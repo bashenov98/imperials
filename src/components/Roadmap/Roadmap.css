@@ -11,7 +11,7 @@
     display: flex;
     width: 280px;
     flex-direction: column;
-    gap: 42px;
+    gap: 80px;
     background: rgba(0, 0, 0, 0.1);
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(40px);
@@ -21,8 +21,13 @@
     cursor: pointer;
 }
 
+.image-box {
+    height: 58px;
+}
+
 .phase-image {
-    width: 128px;
+   
+    height: 100%;
     margin-top: 36px;
 }
 
@@ -110,6 +115,18 @@ h5 {
     font-weight: 400;
 }
 
+.phase-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.phase-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;  
+}
+
 @media screen and (max-width: 1024px) {
     .roadmap {
         padding: 0px 12px;
@@ -119,6 +136,10 @@ h5 {
         flex-direction: column;
     }
 
+    .image-box {
+        height: 180px;
+    }
+
     .phase {
         display: flex;
         width: 98%;
@@ -126,10 +147,29 @@ h5 {
         backdrop-filter: blur(40px);
         border-radius: 8px;
         padding: 40px 12px;
+        gap: 100px;
     }
 
+
     .phase-image {
+        height: 100%;
         margin: 0;
-        width: 128px;
+    }
+
+    .phase-info {
+        gap: 30px;
+    }
+
+    .phase-title {
+        gap: 40px;
+    }
+
+    h4 {
+        font-size: 60px;
+       
+    }
+    
+    h5 {
+        font-size: 28px;
     }
 }
