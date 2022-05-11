@@ -10,6 +10,13 @@
     .App {
         padding: 0px 12px;
     }
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
 }
 
 @font-face {

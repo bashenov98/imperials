@@ -8,15 +8,15 @@ import 'swiper/css/autoplay';
 
 import './NFTS.css';
 
-import NFT1 from '../../media/nfts/IMG_1696.PNG';
-import NFT2 from '../../media/nfts/IMG_1698.PNG';
-import NFT3 from '../../media/nfts/IMG_1699.PNG';
-import NFT4 from '../../media/nfts/IMG_1700.PNG';
-import NFT5 from '../../media/nfts/IMG_1704.PNG';
-import NFT6 from '../../media/nfts/IMG_1702.PNG';
+import NFT1 from '../../media/nfts/convert/IMG_1696.jpeg';
+import NFT2 from '../../media/nfts/convert/IMG_1698.jpeg';
+import NFT3 from '../../media/nfts/convert/IMG_1699.jpeg';
+import NFT4 from '../../media/nfts/convert/IMG_1700.jpeg';
+import NFT5 from '../../media/nfts/convert/IMG_1704.jpeg';
+import NFT6 from '../../media/nfts/convert/IMG_1702.jpeg';
 import NFT7 from '../../media/nfts/IMG_1705.JPG';
 import NFT8 from '../../media/nfts/IMG_1706.JPG';
-import NFT9 from '../../media/nfts/IMG_1707.PNG';
+import NFT9 from '../../media/nfts/convert/IMG_1707.jpeg';
 
 
 const Nfts = () => {
@@ -38,7 +38,7 @@ const Nfts = () => {
         <div className="nfts">
             <h3>Our NFTs</h3>
             <h2>Our NFTs</h2><br/>
-            <Swiper spaceBetween={50}
+            <Swiper spaceBetween={20}
                     slidesPerView={3}
                     modules={[Autoplay]}
                     autoplay={{delay: 1000}}

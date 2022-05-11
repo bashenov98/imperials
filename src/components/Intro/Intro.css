@@ -150,7 +150,6 @@ audio {
 }
 
 .skip-button {
-
     background: transparent;
     border: 0;
     bottom: 10px;
@@ -187,6 +186,23 @@ audio {
 
     .intro p {
         font-size: 3rem;
+    }
+
+    .crawl {
+        transform: translateX(-50%) perspective(300px) ;
+    }
+
+    .episode-title {
+        line-height: 1;
+        transform: none;
+    }
+
+    .skip-button {
+        bottom: 150px;
+    }
+
+    .volume {
+        bottom: 150px;
     }
 }
 

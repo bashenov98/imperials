@@ -47,12 +47,74 @@ a {
     text-decoration: none;
 }
 
+.header-mobile {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 12px;
+}
+
+.mobile-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-logo {
+
+}
+
+.mobile-socials {
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    gap: 20px
+}
+
+.mobsocial-logo {
+    width: 50px;
+}
+
+.mobile-tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.mob-tab {
+    border-bottom: 4px solid #2D3C65;
+}
+
+.mobile-tab {
+    font-family: 'Stellar';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 122.5%;
+    text-align: center;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.02em;
+
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+
+.mobile-logo-img {
+    width: 300px;
+}
+
 @media screen and (max-width: 1024px) {
     .header-buttons {
         display: none;
     }
 
     .header { 
-        padding: 10px 12px;
+        padding: 40px 12px;
+    }
+
+    .header-logo {
+        width: 100%;
+        align-items: center;
     }
 }
