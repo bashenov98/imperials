@@ -107,6 +107,8 @@ h3 {
         min-height: max-content;
         justify-content: center;
         margin-top: 26px;
+        padding-bottom: 300px;
+        backdrop-filter: blur(40px);
     }
 
     .heroes-cipher {
