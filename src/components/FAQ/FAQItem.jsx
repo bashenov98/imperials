@@ -8,7 +8,7 @@ const data = {
         {id: 3, visible: true, question: 'How do I get whitelisted?', answer: 'Whitelist roles for those, who joined us early are already been given. Don’t be upset, we have allocated special roles for DAOs and for active people in social networks. Feel free to be creative on your own way.'},
         {id: 4, visible: true, question: 'What privileges gives me a special role, like WL?', answer: 'Whitelisted members are guaranteed to mint 2 imperials each whereas OG and DAO roles are guaranteed to mint 1 each.'},
         {id: 5, visible: true, question: 'How much of the supply will be available for the Presale?', answer: '1200 of the supply has been reserved for the presale.'},
-        {id: 6, visible: true, question: 'How much and when is mint day/time?', answer: '1.5 SOL for both presale and Public sale. \n' +
+        {id: 6, visible: true, question: 'How much and when is mint day/time?', answer: '2 SOL for both presale and Public sale. \n' +
                                                                                         'Presale: TBA\n' +
                                                                                         'Public Sale: TBA\n'},
         {id: 7, visible: true, question: 'How to receive $IMPR Token?', answer: 'You will need to login to our staking platform using your wallet, select which Imperials you want to stake, then stake them. The Imperials NFT will not leave your wallet, but listing your NFT on the secondary market or transferring it to another wallet will reset your staking period, and you will need to re-stake your NFT to requalify for $IMPR rewards.\n' +
