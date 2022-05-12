@@ -10,8 +10,7 @@
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 8px;
-    width: 350px;
-    height: 350px;
+    width: 100%;
 }
 
 h2 {
@@ -47,8 +46,4 @@ h3 {
         margin-top: 50px;
     }
 
-    .nft-img {
-        width: 280px;
-        height: 280px;
-    }
 }

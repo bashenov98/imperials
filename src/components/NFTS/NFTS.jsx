@@ -39,7 +39,7 @@ const Nfts = () => {
             <h3>Our NFTs</h3>
             <h2>Our NFTs</h2><br/>
             <Swiper spaceBetween={20}
-                    slidesPerView={3}
+                    slidesPerView={4}
                     modules={[Autoplay]}
                     autoplay={{delay: 1000}}
                     speed={500}>

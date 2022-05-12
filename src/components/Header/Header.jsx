@@ -1,12 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import './Header.css';
 import {ReactComponent as Twitter} from "../../media/Twitter.svg";
-import {ReactComponent as Logo} from "../../media/Logo.svg";
 import {ReactComponent as Discord} from "../../media/Discord.svg";
 import mobileLogo from "../../media/reallogo.PNG";
-import twitter from "../../media/Twitter.png";
 import discordmob from "../../media/Discord.svg";
 import twittermob from "../../media/Twitter.svg";
+import bar from "../../media/bar.svg";
 
 
 import {Link} from "react-router-dom";
@@ -44,8 +43,8 @@ const Header = () => {
                                 <Link to="/staking"><p className="tabs">Staking</p></Link>
                             </div>
                             <div className="socials">
-                                <Link to="https://twitter.com/ImperialsNFT"><Twitter/></Link>
-                                <Link to="https://discord.gg/rGXSMKcnv3"><Discord/></Link>
+                                <Link to="twitter.com/ImperialsNFT"><Twitter/></Link>
+                                <Link to="discord.gg/rGXSMKcnv3"><Discord/></Link>
                             </div>
                         </div>
                     </div>
@@ -58,8 +57,8 @@ const Header = () => {
                                 <Link to="/"><img src={mobileLogo} className="mobile-logo-img"/></Link>
                             </div>
                             <div className="mobile-socials">
-                                <Link to="https://twitter.com/ImperialsNFT"><img src={twittermob} className="mobsocial-logo"/></Link>
-                                <Link to="https://discord.gg/rGXSMKcnv3"><img src={discordmob} className="mobsocial-logo"/></Link>
+                                {/*<Link to="https://twitter.com/ImperialsNFT"><img src={twittermob} className="mobsocial-logo"/></Link>*/}
+                                {/*<Link to="https://discord.gg/rGXSMKcnv3"><img src={discordmob} className="mobsocial-logo"/></Link>*/}
                             </div>
                         </div>
                         <div className="mobile-tabs">

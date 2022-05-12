@@ -7,6 +7,7 @@ import volumeOff from "../../media/sound/volume_off.svg";
 import volumeOn from "../../media/sound/volume_on.svg";
 import skip from "../../media/sound/skip.png";
 import graySkip from "../../media/sound/gray_skip.png";
+import logo from "../../media/reallogo.PNG";
 
 
 const Intro = (props) => {
@@ -33,7 +34,7 @@ const Intro = (props) => {
             .set(title.current, { opacity: 1, scale: 2.75, delay: 0.5 })
             .to(title.current, { scale: 0.05, ease: "power2", duration: 8 })
             .to(title.current, { opacity: 0, duration: 1.5 }, "-=1.5")
-            .to(content.current, { top: "-170%", duration: 200 });
+            .to(content.current, { top: "-300%", duration: 100 });
     }, []);
 
     const handleLangChange = () => {
@@ -50,7 +51,7 @@ const Intro = (props) => {
                     </p>
                 </section>
                 <section className="title" ref={title}>
-                    <Logo/>
+                    <img src={logo}/>
                 </section>
                 <section className="crawl">
                     <div className="content" ref={content}>
