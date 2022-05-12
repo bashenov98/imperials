@@ -13,7 +13,7 @@ const Footer = () => {
                 <p className="footer-text">ⓒ Imperials NFT, 2022</p>
                 <div className="header-socials">
                     <a href="https://twitter.com/ImperialsNFT"><Twitter/></a>
-                    <a href="https://discord.gg/rGXSMKcnv3"><Discord/></a>
+                    {/*<a href="https://discord.gg/rGXSMKcnv3"><Discord/></a>*/}
                 </div>
             </div>
         </div>

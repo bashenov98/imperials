@@ -43,8 +43,7 @@ const Header = () => {
                                 <Link to="/staking"><p className="tabs">Staking</p></Link>
                             </div>
                             <div className="socials">
-                                <Link to="twitter.com/ImperialsNFT"><Twitter/></Link>
-                                <Link to="discord.gg/rGXSMKcnv3"><Discord/></Link>
+                                <a href="https://twitter.com/ImperialsNFT"><Twitter/></a>
                             </div>
                         </div>
                     </div>
