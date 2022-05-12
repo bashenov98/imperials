@@ -11,18 +11,20 @@ import Yeprev from '../../media/team/Yeprev.jpeg';
 import Aidaprev from '../../media/team/Aidaprev.jpeg';
 
 import {Swiper, SwiperSlide} from "swiper/react";
+import SwiperCore, {Mousewheel} from "swiper";
+
 // Import Swiper styles
 import 'swiper/css';
 
 const Team = () => {
-
+    SwiperCore.use(Mousewheel);
     const team = [
-        {id: 1, name: 'Miras', position: 'CEO', img: Mirka, previmg: Mirkaprev, url:'https://twitter.com/Mirko_Sol'},
-        {id: 2, name: 'Daniyar', position: 'Developer', img: Danik, previmg: Danikprev, url: 'https://twitter.com/eifeleva_bawnya'},
-        {id: 3, name: 'Eldar', position: 'Game Developer', img: Eldar, previmg: Eldarprev, url: ''},
-        {id: 4, name: 'Dias', position: 'Community Manager', img: Diasprev, previmg: Diasprev, url: ''},
-        {id: 5, name: 'Era', position: 'Community Manager', img: Yeprev, previmg: Yeprev, url: ''},
-        {id: 6, name: 'Aida', position: 'Artist', img: Aidaprev, previmg: Aidaprev, url: ''}
+        {id: 1, name: 'Mirko', position: 'CEO', img: Mirka, previmg: Mirkaprev, url:'https://twitter.com/Mirko_Sol'},
+        {id: 2, name: 'Daniel', position: 'Developer', img: Danik, previmg: Danikprev, url: 'https://twitter.com/damn_dan09'},
+        {id: 3, name: 'SalewaEel', position: 'Game Developer', img: Eldar, previmg: Eldarprev, url: 'https://twitter.com/SalewaEel'},
+        {id: 4, name: 'McLovin', position: 'Community Manager', img: Diasprev, previmg: Diasprev, url: 'https://twitter.com/McLovin_sol'},
+        {id: 5, name: 'Era', position: 'Community Manager', img: Yeprev, previmg: Yeprev, url: 'https://twitter.com/richestmzfkr1/'},
+        {id: 6, name: 'Shug', position: 'Artist', img: Aidaprev, previmg: Aidaprev, url: ''}
     ];
 
     return (
@@ -30,10 +32,10 @@ const Team = () => {
             <h3>Our team</h3>
             <h2>Our team</h2><br/>
             <div className="team-members">
-                <Swiper spaceBetween={20} slidesPerView={4}>
+                <Swiper spaceBetween={20} slidesPerView={4} modules={[Mousewheel]} mousewheel={{enabled: true}}>
                     {team.map((item) =>
                         <div key={item.id}>
-                            <SwiperSlide>
+                            <SwiperSlide >
                                 <a href={item.url}>
                                     <img className="photo" src={item.previmg}
                                          onMouseOver={e => (e.currentTarget.src= item.img)}

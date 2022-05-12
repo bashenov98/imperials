@@ -132,7 +132,7 @@ audio {
     font-weight: 700;
     line-height: 1.33;
     margin-bottom: 4rem;
-    text-align: revert;
+    text-align: center;
 }
 
 .volume {
@@ -199,6 +199,7 @@ audio {
 
     .skip-button {
         bottom: 150px;
+        left: 660px;
     }
 
     .volume {

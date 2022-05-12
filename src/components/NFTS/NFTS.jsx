@@ -14,9 +14,9 @@ import NFT3 from '../../media/nfts/convert/IMG_1699.jpeg';
 import NFT4 from '../../media/nfts/convert/IMG_1700.jpeg';
 import NFT5 from '../../media/nfts/convert/IMG_1704.jpeg';
 import NFT6 from '../../media/nfts/convert/IMG_1702.jpeg';
-import NFT7 from '../../media/nfts/IMG_1705.JPG';
+import Sup from '../../media/nfts/IMG_1705.JPG';
 import NFT8 from '../../media/nfts/IMG_1706.JPG';
-import NFT9 from '../../media/nfts/convert/IMG_1707.jpeg';
+import RikMorty from '../../media/nfts/convert/IMG_1707.jpeg';
 
 
 const Nfts = () => {
@@ -24,12 +24,12 @@ const Nfts = () => {
         {id: 1, url: NFT1},
         {id: 2, url: NFT2},
         {id: 3, url: NFT3},
-        {id: 4, url: NFT4},
-        {id: 5, url: NFT5},
+        {id: 4, url: RikMorty},
+        {id: 5, url: Sup},
         {id: 6, url: NFT6},
-        {id: 7, url: NFT7},
+        {id: 7, url: NFT5},
         {id: 8, url: NFT8},
-        {id: 9, url: NFT9}
+        {id: 9, url: NFT4}
     ];
 
 
