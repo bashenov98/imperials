@@ -44,3 +44,8 @@
     src: url('../public/fonts/Stellar-Regular.otf');
 }
 
+@font-face {
+    font-family: 'Stellar Bold';
+    src: url('../public/fonts/Stellar-Bold.otf');
+}
+

@@ -135,9 +135,9 @@ const Roadmap = () => {
                             {/*    {item}*/}
                             {/*</div>)}*/}
                             {phases[choosenPhase - 1].headers.map((item, index) =>
-                                <div className="swiper-item">
-                                    <h8 className="phase-step-header">{item}</h8>
-                                    <p className="phase-step-text">{phases[choosenPhase - 1].description[index]}</p>
+                                <div>
+                                    <p className="phase-step-header">{item}</p>
+                                    <p className="phase-step-text">{phases[choosenPhase - 1].description[index]}</p><br/>
                                 </div>
                             )}
                         </div>

@@ -122,11 +122,12 @@ h5 {
     letter-spacing: 0.02em;
 }
 
-.phase-step-header h8 {
-    font-family: "ITC Serif Gothic";
-    font-weight: 800;
+.phase-step-header {
+    font-family: 'Stellar Bold';
+    font-weight: 700;
     line-height: 120%;
     letter-spacing: 0.02em;
+    padding-bottom: 5px;
 }
 
 
