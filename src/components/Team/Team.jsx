@@ -21,9 +21,9 @@ const Team = () => {
     const team = [
         {id: 1, name: 'Mirko', position: 'CEO', img: Mirka, previmg: Mirkaprev, url:'https://twitter.com/Mirko_Sol'},
         {id: 2, name: 'Daniel', position: 'Developer', img: Danik, previmg: Danikprev, url: 'https://twitter.com/damn_dan09'},
-        {id: 3, name: 'SalewaEel', position: 'Game Developer', img: Eldar, previmg: Eldarprev, url: 'https://twitter.com/SalewaEel'},
+        {id: 3, name: 'Eel', position: 'Game Developer', img: Eldar, previmg: Eldarprev, url: 'https://twitter.com/SalewaEel'},
         {id: 4, name: 'McLovin', position: 'Community Manager', img: Diasprev, previmg: Diasprev, url: 'https://twitter.com/McLovin_sol'},
-        {id: 5, name: 'Era', position: 'Community Manager', img: Yeprev, previmg: Yeprev, url: 'https://twitter.com/richestmzfkr1/'},
+        {id: 5, name: 'Happy Era', position: 'Product Manager', img: Yeprev, previmg: Yeprev, url: 'https://twitter.com/HappyImpr'},
         {id: 6, name: 'Shug', position: 'Artist', img: Aidaprev, previmg: Aidaprev, url: ''}
     ];
 

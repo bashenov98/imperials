@@ -33,13 +33,24 @@
 
 .choosen-phase {
     background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #FFFFFF;
     backdrop-filter: blur(40px);
+    border-radius: 8px;
+
+
 }
 
 .phase-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.phase-bottom {
+    padding: 20px;
+    padding-top: 0;
 }
 
 .phase-right_btm_img {
@@ -103,17 +114,21 @@ h5 {
     color: #FFFFFF;
 }
 
-.phase-step-header {
+.phase-step-text p {
     font-family: 'Stellar';
-    font-weight: 700;
+    font-weight: 400;
+    line-height: initial;
+
+    letter-spacing: 0.02em;
+}
+
+.phase-step-header h8 {
+    font-family: "ITC Serif Gothic";
+    font-weight: 800;
     line-height: 120%;
     letter-spacing: 0.02em;
 }
 
-.phase-step-text {
-    font-family: 'Stellar';
-    font-weight: 400;
-}
 
 .phase-info {
     display: flex;

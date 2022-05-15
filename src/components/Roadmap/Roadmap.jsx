@@ -6,61 +6,65 @@ const Roadmap = () => {
     const [choosenPhase, setChoosenPhase] = useState(0);
 
     const phases = [
-        {id:1, title: 'Phase 1',
+        {
+            id:1,
+            title: 'Phase I',
             headers: [
-                '1.1) Art',
-                '1.2) Team',
-                '1.3) Website',
-                '1.4) Social Networks'
+                'Art',
+                'Play-to-Earn Game',
+                'Tokenomics'
             ],
             description: [
                 'Drawing 2,222 pcs of unique drawings by generating more than 100 attributes and backgrounds.',
-                'Recruiting a team of enthusiastic people with a lot of experience behind them to create only positive vibes and cool products for our favorite holders.',
-                'Creating our website for more information about the project and about us.',
-                'Creating our pages on social networks such as Twitter, Discord.'
+                'Development of role-playing game based on loot system. You can read full information about the game in the whitepaper.',
+                'Creating $IMPR token and an optimal burning system that will be used in game, staking and casino.'
             ],
             url: 'https://i.ibb.co/4jKSnJH/Group-3-2.png'
         },
-        {id:2, title: 'Phase 2',
+        {
+            id:2,
+            title: 'Phase II',
             headers: [
-                '2.1) Marketing',
-                '2.2) Collaborations',
-                '2.3) DAO',
-                '2.4) Presale',
-                '2.5) Public Mint',
-                '2.6) Listing'
+                'Collaborations',
+                'DAO',
+                'Playable Demo',
+                'Presale',
+                'Public mint'
             ],
             description: [
-                'Promotion of social networks and PR of the project for wide publicity in the society. We want everyone to know about us on blockchain Solana.',
                 'Collaboration with famous projects and Influencers to distribute WL roles and special roles.',
                 'Establish exclusive DAO community.',
+                'Release of playable demo of the Game. So that people can make sure that the game is working.',
                 'Presale for the first, hardest working, and most active members of the community.',
-                'Public mint for all comers.',
-                'Listing on the popular NFT marketplace MagicEden for secondary trade of the collection.'
+                'Public mint for all comers.'
             ],
             url: 'https://i.ibb.co/YyYNBMz/Group-3-3.png'
         },
-        {id:3, title: 'Phase 3',
+        {
+            id:3,
+            title: 'Phase III',
             headers: [
-                '3.1) Tokenomics',
-                '3.2) Staking',
-                '3.3) Casino',
-                '3.4) Auctions'
+                'Imperials Game official release',
+                'Staking',
+                'Casino',
+                'Auctions'
             ],
             description: [
-                'Creating our own token $IMPR to further, integrate them into the game and our ecosystem.',
-                'Creating an interesting and unique role-playing game with lots of surprises and chips. You can read full information about the game in the whitepaper.',
+                'All development updates will be shared to members in our discord. Throughout development, upgrading the demo, and issuing patch notes, we will be entirely transparent. “Imperials” is nearing completion, so it will be widely available a few days following the mint.',
                 'Launching a staking system for passive income of NFT holders.',
-                'Auctions. Conducting auctions among holders of $IMPR Token.'
+                'Running a casino on the playground.',
+                'Conducting auctions among holders of $IMPR token.'
             ],
             url: 'https://i.ibb.co/SQ3DmHP/Group-3-4.png'
         },
-        {id:4, title: 'Phase 4',
+        {
+            id:4,
+            title: 'Phase IV',
             headers: [
-                '4) Game 2.0'
+                'Game 2.0'
             ],
             description: [
-                'Launching the next version of game.'
+                'Launching a new version of game'
             ],
             url: 'https://i.ibb.co/bzLrhvL/Group-3-5.png'
         }];
@@ -79,8 +83,8 @@ const Roadmap = () => {
                         
                         
                         <div className='phase-info'>
-                            <h5>Phase 1</h5>
-                            <h4>Phase 1</h4>
+                            <h5>Phase I</h5>
+                            <h4>Phase I</h4>
                         </div>
                     </div>
                     <div className="phase" onClick={() => setChoosenPhase(2)}>
@@ -89,8 +93,8 @@ const Roadmap = () => {
                         </div>
 
                         <div className='phase-info'>
-                            <h5>Phase 2</h5>
-                            <h4>Phase 2</h4>
+                            <h5>Phase II</h5>
+                            <h4>Phase II</h4>
                         </div>
                     </div>
                     <div className="phase" onClick={() => setChoosenPhase(3)}>
@@ -99,8 +103,8 @@ const Roadmap = () => {
                         </div>
 
                         <div className='phase-info'>
-                            <h5>Phase 3</h5>
-                            <h4>Phase 3</h4>
+                            <h5>Phase III</h5>
+                            <h4>Phase III</h4>
                         </div>
                     </div>
                     <div className="phase" onClick={() => setChoosenPhase(4)}>
@@ -109,8 +113,8 @@ const Roadmap = () => {
                         </div>
 
                         <div className="phase-info">
-                            <h5>Phase 4</h5>
-                            <h4>Phase 4</h4>
+                            <h5>Phase IV</h5>
+                            <h4>Phase IV</h4>
                         </div>
                     </div>
                 </div>)
@@ -132,7 +136,7 @@ const Roadmap = () => {
                             {/*</div>)}*/}
                             {phases[choosenPhase - 1].headers.map((item, index) =>
                                 <div className="swiper-item">
-                                    <p className="phase-step-header">{item}</p>
+                                    <h8 className="phase-step-header">{item}</h8>
                                     <p className="phase-step-text">{phases[choosenPhase - 1].description[index]}</p>
                                 </div>
                             )}
